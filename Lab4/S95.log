@@ -1,0 +1,14 @@
+CM: 
+CM: Checking...
+CM:  Error   L7/C0 : #0 Error: C:/XILINX/ACTIVE/PROJECTS/LAB4/VHDL_DIV_N12S15.vhd  line 7   Syntax error.  (VSS-1081) 
+CM:  Error   L8/C0 : #0 Error: C:/XILINX/ACTIVE/PROJECTS/LAB4/VHDL_DIV_N12S15.vhd  line 8   Syntax error.  (VSS-1081) 
+CM:  Error   L36/C0 : #0 Error: C:/XILINX/ACTIVE/PROJECTS/LAB4/VHDL_DIV_N12S15.vhd  line 36   Syntax error.  (VSS-1081) 
+CM:  Error   L38/C0 : #0 Error: C:/XILINX/ACTIVE/PROJECTS/LAB4/VHDL_DIV_N12S15.vhd  line 38   Entity closing name mismatch. (VSS-1082)  (FPGA-hci-hdlc-unknown) 
+CM:  4 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Synthesis Successful
+CM: Use Synthesis/View Report for detailed synthesis report
+CM: Symbol 'VHDL_DIV_N12S15' successfully created

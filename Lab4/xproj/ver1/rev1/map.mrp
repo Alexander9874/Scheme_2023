@@ -1,0 +1,382 @@
+Release 4.1.03i - Map E.30
+Xilinx Mapping Report File for Design 'lab4'
+Copyright (c) 1995-2001 Xilinx, Inc.  All rights reserved.
+
+Design Information
+------------------
+Command Line   : m1map -p xcs10-3-pc84 -o map.ncd lab4.ngd lab4.pcf 
+Target Device  : xs10
+Target Package : pc84
+Target Speed   : -3
+Mapper Version : spartan -- E.30
+
+Design Summary
+--------------
+   Number of errors:        0
+   Number of warnings:      7
+   Number of CLBs:             11 out of   196    5%
+      CLB Flip Flops:      16
+      4 input LUTs:        21
+      3 input LUTs:         5
+   Number of bonded IOBs:      21 out of    61   34%
+      IOB Flops:            0
+      IOB Latches:          0
+   Number of clock IOB pads:    1 out of     8   12%
+   Number of primary CLKs:      1 out of     4   25%
+   Number of secondary CLKs:    1 out of     4   25%
+Total equivalent gate count for design: 244
+Additional JTAG gate count for IOBs:    1008
+
+Table of Contents
+-----------------
+Section 1 - Errors
+Section 2 - Warnings
+Section 3 - Informational
+Section 4 - Removed Logic Summary
+Section 5 - Removed Logic
+Section 6 - IOB Properties
+Section 7 - RPMs
+Section 8 - Guide Report
+Section 9 - Area Group Summary
+Section 10 - Modular Design Summary
+
+Section 1 - Errors
+------------------
+
+Section 2 - Warnings
+--------------------
+WARNING:OldMap:78 - All of the external outputs in this design are using
+   slew-rate-limited output drivers.  The delay on speed critical outputs can be
+   dramatically reduced by designating them as fast outputs in the original
+   design.  Please see your vendor interface documentation for specific
+   information on how to do this within your design-entry tool.
+   Note: You should be careful not to designate too many outputs which switch
+   together as fast, because this can cause excessive ground bounce.  For more
+   information on this subject, please refer to the IOB switching characteristic
+   guidelines for the device you are using in the Programmable Logic Data Book.
+WARNING:OldMap:548 - All the logic for "FMAP symbol "U2/C56" (output
+   signal=TC_VHDL)" has been removed!  This may be caused by key logic being
+   trimmed.  Please consult the Removed Logic section of this report to see if
+   this is the case.
+WARNING:OldMap:548 - All the logic for "FMAP symbol "U2/C51" (output
+   signal=CEO_VHDL)" has been removed!  This may be caused by key logic being
+   trimmed.  Please consult the Removed Logic section of this report to see if
+   this is the case.
+WARNING:OldMap:548 - All the logic for "FMAP symbol "U2/C41" (output
+   signal=U2/C0/N68)" has been removed!  This may be caused by key logic being
+   trimmed.  Please consult the Removed Logic section of this report to see if
+   this is the case.
+WARNING:OldMap:548 - All the logic for "FMAP symbol "U2/C24" (output
+   signal=U2/C0/N54)" has been removed!  This may be caused by key logic being
+   trimmed.  Please consult the Removed Logic section of this report to see if
+   this is the case.
+WARNING:OldMap:548 - All the logic for "FMAP symbol "U2/C12" (output
+   signal=U2/C0/N40)" has been removed!  This may be caused by key logic being
+   trimmed.  Please consult the Removed Logic section of this report to see if
+   this is the case.
+WARNING:OldMap:548 - All the logic for "FMAP symbol "U2/C0" (output
+   signal=U2/C0/N26)" has been removed!  This may be caused by key logic being
+   trimmed.  Please consult the Removed Logic section of this report to see if
+   this is the case.
+
+Section 3 - Informational
+-------------------------
+
+Section 4 - Removed Logic Summary
+---------------------------------
+ 106 block(s) removed
+  14 block(s) optimized away
+ 102 signal(s) removed
+
+Section 5 - Removed Logic
+-------------------------
+
+The trimmed logic report below shows the logic removed from your design due to
+sourceless or loadless signals, and VCC or ground connections.  If the removal
+of a signal or symbol results in the subsequent removal of an additional signal
+or symbol, the message explaining that second removal will be indented.  This
+indentation will be repeated as a chain of related logic is removed.
+
+To quickly locate the original cause for the removal of a chain of logic, look
+above the place where that logic is listed in the trimming report, then locate
+the lines that are least indented (begin at the leftmost edge).
+
+The signal "H9/D3" is loadless and has been removed.
+ Loadless block "H9/$I8" (IBUF) removed.
+  The signal "H9/RG1_D3" is loadless and has been removed.
+   Loadless block "H9/$I4" (IPAD) removed.
+The signal "H9/D2" is loadless and has been removed.
+ Loadless block "H9/$I9" (IBUF) removed.
+  The signal "H9/RG1_D2" is loadless and has been removed.
+   Loadless block "H9/$I5" (IPAD) removed.
+The signal "H9/D1" is loadless and has been removed.
+ Loadless block "H9/$I10" (IBUF) removed.
+  The signal "H9/RG1_D1" is loadless and has been removed.
+   Loadless block "H9/$I6" (IPAD) removed.
+The signal "Q3_DV" is sourceless and has been removed.
+ Sourceless block "H6/$I37" (OBUF) removed.
+  The signal "H6/$Net00036_" is sourceless and has been removed.
+   Sourceless block "H6/$I41" (OPAD) removed.
+The signal "Q0" is sourceless and has been removed.
+ Sourceless block "H7/$I49" (OBUF) removed.
+  The signal "H7/$Net00037_" is sourceless and has been removed.
+   Sourceless block "H7/$I45" (OPAD) removed.
+The signal "Q1" is sourceless and has been removed.
+ Sourceless block "H7/$I48" (OBUF) removed.
+  The signal "H7/$Net00038_" is sourceless and has been removed.
+   Sourceless block "H7/$I44" (OPAD) removed.
+The signal "Q2" is sourceless and has been removed.
+ Sourceless block "H7/$I47" (OBUF) removed.
+  The signal "H7/$Net00039_" is sourceless and has been removed.
+   Sourceless block "H7/$I43" (OPAD) removed.
+The signal "Q3" is sourceless and has been removed.
+ Sourceless block "H7/$I46" (OBUF) removed.
+  The signal "H7/$Net00040_" is sourceless and has been removed.
+   Sourceless block "H7/$I42" (OPAD) removed.
+
+The trimmed logic reported below is either:
+   1. part of a cycle
+   2. part of disabled logic
+   3. a side-effect of other trimmed logic
+
+The signal "VHDL_BUS<3>" is unused and has been removed.
+ Unused block "U2/Q_reg<3>" (FDCE) removed.
+  The signal "U2/C0/N26" is unused and has been removed.
+   Unused block "U2/C1" (INV) removed.
+    The signal "U2/N0" is unused and has been removed.
+     Unused block "U2/C8/U2/N0" (X_AND2) removed.
+      The signal "U2/N0/2.0" is unused and has been removed.
+       Unused block "U2/C8/U2/N0/2.0" (X_AND2) removed.
+        The signal "U2/N5" is unused and has been removed.
+         Unused block "U2/C4" (INV) removed.
+          The signal "U2/N6" is unused and has been removed.
+           Unused block "U2/C11/U2/N6" (X_AND2) removed.
+            The signal "U2/N6/2.0" is unused and has been removed.
+             Unused block "U2/C11/U2/N6/2.0" (X_AND2) removed.
+              The signal "U2/N9" is unused and has been removed.
+               Unused block "U2/C7" (INV) removed.
+                The signal "VHDL_BUS<2>" is unused and has been removed.
+                 Unused block "U2/Q_reg<2>" (FDCE) removed.
+                  The signal "U2/C0/N40" is unused and has been removed.
+                   Unused block "U2/C13" (INV) removed.
+                    The signal "U2/N10" is unused and has been removed.
+                     Unused block "U2/C20/U2/N10" (X_AND2) removed.
+                      The signal "U2/N10/2.0" is unused and has been removed.
+                       Unused block "U2/C20/U2/N10/2.0" (X_AND2) removed.
+                        The signal "U2/N15" is unused and has been removed.
+                         Unused block "U2/C16" (INV) removed.
+                          The signal "U2/N16" is unused and has been removed.
+                           Unused block "U2/C23/U2/N16" (X_AND2) removed.
+                            The signal "U2/N16/2.0" is unused and has been removed.
+                             Unused block "U2/C23/U2/N16/2.0" (X_AND2) removed.
+                              The signal "U2/N19" is unused and has been removed.
+                               Unused block "U2/C19" (INV) removed.
+                            The signal "U2/N16/2.1" is unused and has been removed.
+                             Unused block "U2/C23/U2/N16/2.1" (X_AND2) removed.
+                              The signal "VHDL_BUS<1>" is unused and has been removed.
+                               Unused block "U2/Q_reg<1>" (FDCE) removed.
+                                The signal "U2/C0/N54" is unused and has been removed.
+                                 Unused block "U2/C25" (INV) removed.
+                                  The signal "U2/N20" is unused and has been removed.
+                                   Unused block "U2/C36/U2/N20" (X_AND2) removed.
+                                    The signal "U2/N20/2.0" is unused and has been removed.
+                                     Unused block "U2/C36/U2/N20/2.0" (X_AND2) removed.
+                                      The signal "U2/N27" is unused and has been removed.
+                                       Unused block "U2/C29" (INV) removed.
+                                        The signal "U2/N28" is unused and has been removed.
+                                         Unused block "U2/C40/U2/N28" (X_AND2) removed.
+                                          The signal "U2/N28/2.0" is unused and has been removed.
+                                           Unused block "U2/C40/U2/N28/2.0" (X_AND2) removed.
+                                            The signal "U2/N34" is unused and has been removed.
+                                             Unused block "U2/C35" (INV) removed.
+                                          The signal "VHDL_BUS<0>" is unused and has been removed.
+                                           Unused block "U2/Q_reg<0>" (FDCE) removed.
+                                            The signal "U2/C0/N68" is unused and has been removed.
+                                             Unused block "U2/C42" (INV) removed.
+                                              The signal "U2/N35" is unused and has been removed.
+                                               Unused block "U2/C48" (AND2) removed.
+                                                The signal "U2/N36" is unused and has been removed.
+                                                 Unused block "U2/C43" (INV) removed.
+*The signal "U2/N37" is unused and has been removed.
+* Unused block "U2/C49" (AND2) removed.
+*  The signal "U2/N40" is unused and has been removed.
+*   Unused block "U2/C45" (INV) removed.
+*  The signal "U2/N43" is unused and has been removed.
+*   Unused block "U2/C46" (INV) removed.
+                                                The signal "U2/N38" is unused and has been removed.
+                                                 Unused block "U2/C44" (INV) removed.
+*The signal "U2/N39" is unused and has been removed.
+* Unused block "U2/C50" (AND2) removed.
+*  The signal "U2/N44" is unused and has been removed.
+*   Unused block "U2/C47" (INV) removed.
+                                            The signal "CE_VHDL" is unused and has been removed.
+                                             Unused block "H1/$I13/$1I8" (OR2) removed.
+                                              The signal "H1/$I13/I0B1" is unused and has been removed.
+                                               Unused block "H1/$I13/$1I9" (AND2B1) removed.
+                                                The signal "E_VHDL" is unused and has been removed.
+                                                 Unused block "H10/$I19" (IBUF) removed.
+*The signal "H10/RG2_D0" is unused and has been removed.
+* Unused block "H10/$I15" (IPAD) removed.
+                                              The signal "H1/$I13/I23" is unused and has been removed.
+                                               Unused block "H1/$I13/$1I7" (AND2) removed.
+                                                The signal "CEO_CNT" is unused and has been removed.
+                                                 Unused block "U1/$I2/$1I107" (AND2) removed.
+*The signal "TC_CNT" is unused and has been removed.
+* Unused block "U1/$I2/$1I87/TC_CNT" (X_AND2) removed.
+*  The signal "TC_CNT/2.0" is unused and has been removed.
+*   Unused block "U1/$I2/$1I87/TC_CNT/2.0" (X_AND2) removed.
+*  The signal "TC_CNT/2.1" is unused and has been removed.
+*   Unused block "U1/$I2/$1I87/TC_CNT/2.1" (X_AND2) removed.
+                                      The signal "U2/N25" is unused and has been removed.
+                                       Unused block "U2/C28" (INV) removed.
+                                        The signal "U2/N26" is unused and has been removed.
+                                         Unused block "U2/C39/U2/N26" (X_AND2) removed.
+                                          The signal "U2/N26/2.0" is unused and has been removed.
+                                           Unused block "U2/C39/U2/N26/2.0" (X_AND2) removed.
+                                          The signal "U2/N33" is unused and has been removed.
+                                           Unused block "U2/C34" (INV) removed.
+                                    The signal "U2/N20/2.1" is unused and has been removed.
+                                     Unused block "U2/C36/U2/N20/2.1" (X_AND2) removed.
+                                      The signal "U2/N23" is unused and has been removed.
+                                       Unused block "U2/C27" (INV) removed.
+                                        The signal "U2/N24" is unused and has been removed.
+                                         Unused block "U2/C38/U2/N24" (X_AND2) removed.
+                                          The signal "U2/N24/2.0" is unused and has been removed.
+                                           Unused block "U2/C38/U2/N24/2.0" (X_AND2) removed.
+                                            The signal "U2/N32" is unused and has been removed.
+                                             Unused block "U2/C33" (INV) removed.
+                                            The signal "U2/N31" is unused and has been removed.
+                                             Unused block "U2/C32" (INV) removed.
+                                      The signal "U2/N21" is unused and has been removed.
+                                       Unused block "U2/C26" (INV) removed.
+                                        The signal "U2/N22" is unused and has been removed.
+                                         Unused block "U2/C37/U2/N22" (X_AND2) removed.
+                                          The signal "U2/N22/2.0" is unused and has been removed.
+                                           Unused block "U2/C37/U2/N22/2.0" (X_AND2) removed.
+                                            The signal "U2/N30" is unused and has been removed.
+                                             Unused block "U2/C31" (INV) removed.
+                                          The signal "U2/N29" is unused and has been removed.
+                                           Unused block "U2/C30" (INV) removed.
+                        The signal "U2/N13" is unused and has been removed.
+                         Unused block "U2/C15" (INV) removed.
+                          The signal "U2/N14" is unused and has been removed.
+                           Unused block "U2/C22/U2/N14" (X_AND2) removed.
+                            The signal "U2/N14/2.0" is unused and has been removed.
+                             Unused block "U2/C22/U2/N14/2.0" (X_AND2) removed.
+                            The signal "U2/N18" is unused and has been removed.
+                             Unused block "U2/C18" (INV) removed.
+                      The signal "U2/N11" is unused and has been removed.
+                       Unused block "U2/C14" (INV) removed.
+                        The signal "U2/N12" is unused and has been removed.
+                         Unused block "U2/C21/U2/N12" (X_AND2) removed.
+                          The signal "U2/N12/2.0" is unused and has been removed.
+                           Unused block "U2/C21/U2/N12/2.0" (X_AND2) removed.
+                          The signal "U2/N17" is unused and has been removed.
+                           Unused block "U2/C17" (INV) removed.
+        The signal "U2/N3" is unused and has been removed.
+         Unused block "U2/C3" (INV) removed.
+          The signal "U2/N4" is unused and has been removed.
+           Unused block "U2/C10" (AND2) removed.
+            The signal "U2/N8" is unused and has been removed.
+             Unused block "U2/C6" (INV) removed.
+      The signal "U2/N1" is unused and has been removed.
+       Unused block "U2/C2" (INV) removed.
+        The signal "U2/N2" is unused and has been removed.
+         Unused block "U2/C9" (AND2) removed.
+          The signal "U2/N7" is unused and has been removed.
+           Unused block "U2/C5" (INV) removed.
+The signal "TC_VHDL" is unused and has been removed.
+ Unused block "U2/C57" (INV) removed.
+  The signal "U2/N48" is unused and has been removed.
+   Unused block "U2/C59" (BUF) removed.
+    The signal "U2/N49" is unused and has been removed.
+     Unused block "U2/C58" (INV) removed.
+      The signal "U2/N50" is unused and has been removed.
+       Unused block "U2/C60/U2/N50" (X_AND2) removed.
+        The signal "U2/N50/2.0" is unused and has been removed.
+         Unused block "U2/C60/U2/N50/2.0" (X_AND2) removed.
+The signal "CEO_VHDL" is unused and has been removed.
+ Unused block "U2/C52" (INV) removed.
+  The signal "U2/N45" is unused and has been removed.
+   Unused block "U2/C54" (BUF) removed.
+    The signal "U2/N46" is unused and has been removed.
+     Unused block "U2/C53" (INV) removed.
+      The signal "U2/N47" is unused and has been removed.
+       Unused block "U2/C55/U2/N47" (X_AND2) removed.
+        The signal "U2/N47/2.0" is unused and has been removed.
+         Unused block "U2/C55/U2/N47/2.0" (X_AND2) removed.
+        The signal "U2/N47/2.1" is unused and has been removed.
+         Unused block "U2/C55/U2/N47/2.1" (X_AND2) removed.
+The signal "U2/N41" is unused and has been removed.
+ Unused block "U2/C135" (GND) removed.
+The signal "U2/N42" is unused and has been removed.
+ Unused block "U2/C136" (GND) removed.
+Unused block "H10/RG2_D0_PULLUP" (PULLUP) removed.
+Unused block "H9/RG1_D1_PULLUP" (PULLUP) removed.
+Unused block "H9/RG1_D2_PULLUP" (PULLUP) removed.
+Unused block "H9/RG1_D3_PULLUP" (PULLUP) removed.
+
+Optimized Block(s):
+TYPE 		BLOCK
+VCC 		H8/T0_GOI1/$1I40
+GND 		H8/T0_GOI1/$1I43
+VCC 		H8/T0_GOI2/$1I40
+GND 		H8/T0_GOI2/$1I43
+VCC 		H8/T1_GOI1/$1I40
+GND 		H8/T1_GOI1/$1I43
+VCC 		H8/T1_GOI2/$1I40
+GND 		H8/T1_GOI2/$1I43
+VCC 		U1/$I2/$1I59
+GND 		U1/$I3
+AND2 		U1/$I2/Q0/$1I30/$1I9
+AND2 		U1/$I2/Q1/$1I30/$1I9
+AND2 		U1/$I2/Q2/$1I30/$1I9
+VCC 		U1/$I4
+
+To enable printing of redundant blocks removed and signals merged, set the
+detailed map report option and rerun map.
+
+Section 6 - Added Logic
+-----------------------
+
+Section 7 - Expanded Logic
+--------------------------
+To enable this section, set the detailed map report option and rerun map.
+
+Section 8 - Signal Cross-Reference
+----------------------------------
+To enable this section, set the detailed map report option and rerun map.
+
+Section 9 - Symbol Cross-Reference
+----------------------------------
+To enable this section, set the detailed map report option and rerun map.
+
+Section 10 - IOB Properties
+---------------------------
+"H10/RG2_D1" (IOB) : PULLUP
+"H10/RG2_D2" (IOB) : PULLUP
+"H10/RG2_D3" (IOB) : PULLUP
+"H4/$Net00001_" (IOB) : SLEW=SLOW
+"H4/$Net00002_" (IOB) : SLEW=SLOW
+"H4/$Net00003_" (IOB) : SLEW=SLOW
+"H4/$Net00004_" (IOB) : SLEW=SLOW
+"H5/$Net00025_" (IOB) : SLEW=SLOW
+"H5/$Net00026_" (IOB) : SLEW=SLOW
+"H5/$Net00027_" (IOB) : SLEW=SLOW
+"H5/$Net00028_" (IOB) : SLEW=SLOW
+"H6/$Net00033_" (IOB) : SLEW=SLOW
+"H6/$Net00034_" (IOB) : SLEW=SLOW
+"H6/$Net00035_" (IOB) : SLEW=SLOW
+"H8/GI_GOI" (IOB) : PULLUP
+"H8/NR_1" (IOB) : PULLUP
+"H8/NR_2" (IOB) : PULLUP
+"H8/NZ_1" (IOB) : PULLUP
+"H8/NZ_2" (IOB) : PULLUP
+"H9/RG1_D0" (IOB) : PULLUP
+
+Section 11 - RPMs
+-----------------
+
+Section 12 - Guide Report
+-------------------------
+Guide not run on this design.

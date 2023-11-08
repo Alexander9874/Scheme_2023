@@ -1,0 +1,150 @@
+Loading - Z:\LAB4\lab4.alb
+   Loading library default timing values
+Info 9239: The following node is loadless:
+   NODE: TC_T, F1.TC.
+Info 9239: The following node is loadless:
+   NODE: TC_CNT, F2.TC_CNT.
+Info 9239: The following node is loadless:
+   NODE: TC_VHDL, F3.TC.
+Info 9239: The following node is loadless:
+   NODE: CEO_VHDL, F3.CEO.
+Info 9239: The following node is loadless:
+   NODE: TC_DV, F0.TC_DV.
+Info 9240: The following node is sourceless:
+   NODE: A10, $I19.A0.
+Info 9240: The following node is sourceless:
+   NODE: A13, $I19.A3.
+Info 9240: The following node is sourceless:
+   NODE: A12, $I19.A2.
+Info 9240: The following node is sourceless:
+   NODE: A23, $I30.A3.
+Info 9240: The following node is sourceless:
+   NODE: A22, $I30.A2.
+Info 9239: The following node is loadless:
+   NODE: CEO_2, $I32.CEO_DV.
+Info 9240: The following node is sourceless:
+   NODE: A20, $I30.A0.
+Info 9240: The following node is sourceless:
+   NODE: A33, $I39.A3.
+Info 9240: The following node is sourceless:
+   NODE: A32, $I39.A2.
+Info 9239: The following node is loadless:
+   NODE: TC_3, $I40.TC_DV.
+Info 9239: The following node is loadless:
+   NODE: CEO_3, $I40.CEO_DV.
+Info 9240: The following node is sourceless:
+   NODE: A31, $I39.A1.
+Info 9240: The following node is sourceless:
+   NODE: A30, $I39.A0.
+Info 9240: The following node is sourceless:
+   NODE: A21, $I30.A1.
+Info 9239: The following node is loadless:
+   NODE: TC_2, $I32.TC_DV.
+Info 9240: The following node is sourceless:
+   NODE: A11, $I19.A1.
+Info 9239: The following node is loadless:
+   NODE: TC_1, C1.TC_DV.
+Info 9239: The following node is loadless:
+   NODE: CEO_1, C1.CEO_DV.
+Info 9240: The following node is sourceless:
+   NODE: A00, $I15.A0.
+Info 9240: The following node is sourceless:
+   NODE: A03, $I15.A3.
+Info 9240: The following node is sourceless:
+   NODE: A01, $I15.A1.
+Info 9240: The following node is sourceless:
+   NODE: A02, $I15.A2.
+Info 9239: The following node is loadless:
+   NODE: CEO_0, C0.CEO_DV.
+Info 9239: The following node is loadless:
+   NODE: TC_0, C0.TC_DV.
+Loading - MODE_CTRL
+   Loading library default timing values
+Loading - SOP4B1
+   Loading library default timing values
+Loading - SOP3B1B
+   Loading library default timing values
+Loading - CNT_DIV_N12S15
+   Loading library default timing values
+Loading - CB4CLE
+   Loading library default timing values
+Loading - FTCLEX
+   Loading library default timing values
+Loading - M2_1
+   Loading library default timing values
+Loading - DV_COUNTER_6221
+   Loading library default timing values
+Loading - SOP3B3
+   Loading library default timing values
+Loading - T_DIV_N12S15
+   Loading library default timing values
+Loading - FTCE
+   Loading library default timing values
+Loading - VHDL_DIV_N12S15
+   Loading library default timing values
+Loading - HL2_B
+   Loading library default timing values
+Loading - HL3_C
+   Loading library default timing values
+Loading - HL4_D
+   Loading library default timing values
+Loading - HL5_E
+   Loading library default timing values
+Loading - GI_GOI
+   Loading library default timing values
+Loading - FD
+   Loading library default timing values
+Loading - KL_REG_1
+   Loading library default timing values
+Loading - KL_REG_2
+   Loading library default timing values
+Loading - COMP4
+   Loading library default timing values
+Info 9239: The following node is loadless:
+   NODE:       CEO_0,       C0/CEO_DV
+Info 9240: The following node is sourceless:
+   NODE:       A02,       $I15/A2
+Info 9240: The following node is sourceless:
+   NODE:       A01,       $I15/A1
+Info 9240: The following node is sourceless:
+   NODE:       A03,       $I15/A3
+Info 9240: The following node is sourceless:
+   NODE:       A00,       $I15/A0
+Info 9239: The following node is loadless:
+   NODE:       CEO_1,       C1/CEO_DV
+Info 9240: The following node is sourceless:
+   NODE:       A11,       $I19/A1
+Info 9240: The following node is sourceless:
+   NODE:       A21,       $I30/A1
+Info 9240: The following node is sourceless:
+   NODE:       A30,       $I39/A0
+Info 9240: The following node is sourceless:
+   NODE:       A31,       $I39/A1
+Info 9239: The following node is loadless:
+   NODE:       CEO_3,       $I40/CEO_DV
+Info 9240: The following node is sourceless:
+   NODE:       A32,       $I39/A2
+Info 9240: The following node is sourceless:
+   NODE:       A33,       $I39/A3
+Info 9240: The following node is sourceless:
+   NODE:       A20,       $I30/A0
+Info 9239: The following node is loadless:
+   NODE:       CEO_2,       $I32/CEO_DV
+Info 9240: The following node is sourceless:
+   NODE:       A22,       $I30/A2
+Info 9240: The following node is sourceless:
+   NODE:       A23,       $I30/A3
+Info 9240: The following node is sourceless:
+   NODE:       A12,       $I19/A2
+Info 9240: The following node is sourceless:
+   NODE:       A13,       $I19/A3
+Info 9240: The following node is sourceless:
+   NODE:       A10,       $I19/A0
+===============================
+Memory usage statistics:
+    Total number of allocated memory blocks: 480 (0)
+    Total number of memory reallocations: 3
+    Total length of memory used to load the netlist: 512 kB (0)
+    Number of system memory blocks (total/long): 2/0
+Netlist loaded in: 3 seconds
+===============================

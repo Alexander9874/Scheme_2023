@@ -1,0 +1,12 @@
+CONV_ACS, 2.5.5.78, Fri Oct 27 12:58:03 2023
+
+Import EDIF netlist 'C:\XILINX\ACTIVE\PROJECTS\LAB4\VHDL_DIV_N12S15.edf'
+Symbol 'VHDL_DIV_N12S15', port 'Q<3>' has been renamed to 'Q3'
+Symbol 'VHDL_DIV_N12S15', port 'Q<2>' has been renamed to 'Q2'
+Symbol 'VHDL_DIV_N12S15', port 'Q<1>' has been renamed to 'Q1'
+Symbol 'VHDL_DIV_N12S15', port 'Q<0>' has been renamed to 'Q0'
+Symbol 'VHDL_DIV_N12S15', port 'Q<3>' has been renamed to 'Q3'
+Symbol 'VHDL_DIV_N12S15', port 'Q<2>' has been renamed to 'Q2'
+Symbol 'VHDL_DIV_N12S15', port 'Q<1>' has been renamed to 'Q1'
+Symbol 'VHDL_DIV_N12S15', port 'Q<0>' has been renamed to 'Q0'
+Import EDIF netlist finished successfully

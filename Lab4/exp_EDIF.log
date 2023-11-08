@@ -1,0 +1,6 @@
+CONV_ACS, 2.5.5.78, Tue Oct 31 00:17:20 2023
+
+  Macro 'VHDL_DIV_N12S15' not exported. File 'C:\XILINX\ACTIVE\PROJECTS\LAB4\VHDL_DIV_N12S15.edf' exists
+  Total number of instances: 184
+  Total number of nets: 324
+EDIF netlist exported to file - C:\XILINX\ACTIVE\PROJECTS\LAB4\lab4.edn

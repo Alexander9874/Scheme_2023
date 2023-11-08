@@ -1,0 +1,89 @@
+[project]
+name=lab4
+netlist=lab4
+contents=lab4
+date=10/27/23
+time=03:15:47
+version=3.1.6.00.18c
+generics=MAX
+Type=F21i
+FndType=F4.1i
+FndTypeE=F4.1i
+top_level=schematic
+library_net=ON
+sim_mode=FUNC
+lib_order=1007 1003 133 167
+[libraries]
+1003=c:\xilinx\active\syslib\maket_2
+1007= 
+133=c:\xilinx\active\syslib\simprims
+167=c:\xilinx\active\syslib\spartan
+[xilinx]
+libraries=unified
+family=2
+xact9=On
+xfam=Spartan
+[device]
+xilinx=S10PC84-3
+part=S10PC84-3
+[netlist]
+external=FALSE
+[Schematic]
+Table01=Project
+Table02=Macro
+Table03=Date
+Table04=Date Last Modified
+[sheets]
+lab45=
+lab46=
+[Log]
+netlist.log=Simulator Netlist Log
+imp_EDIF.log=Import EDIF netlist
+exp_EDIF.log=Export netlist to EDIF 200
+[timings]
+lab4=
+[OPEN32]
+nMaxFile=5095
+lpstrFile=
+lpstrFilter=Edif 200 [*.ED*]|*.ED*|Xilinx [*.XN*;*.BAX]|*.XN*;*.BAX||
+lpstrInitialDir=C:\XILINX\ACTIVE\PROJECTS\LAB4\
+lpstrTitle=Import Netlist
+nFilterIndex=2
+Flags=530948
+cmdLine=-h 414 -hp 232 -m PCM_OPEN_32_MESSAGE -f C:\XILINX\ACTIVE\PROJECTS\current.pdf
+
+
+
+
+
+
+
+
+
+
+
+
+
+[OpenDoc]
+hde/VHDL_DIV_N12S15=0,0,-4,-4,1540,726,VHDL_DIV_N12S15.vhd
+hde/LAB45/U2=0,0,210,209,2130,1135,VHDL_DIV_N12S15.vhd
+[implement_XIE]
+version=ver1
+revision=rev1
+[implement_HDL]
+family=2
+xfam=Spartan
+part=S10PC84-3
+xilinx=S10PC84-3
+
+[APP_95]
+lid=0
+oid=0
+source=Z:\LAB4\LAB46.SCH
+[FILE7]
+macro_update=VHDL_DIV_N12S15
+VHDL_DIV_N12S15=VHDL_DIV_N12S15.vhd
+scan_time=1698752193
+[sc_desk]
+desk00=Z:\LAB4\LAB46.SCH, 372, 225, 1740, 627, 1
+desk01=Z:\LAB4\LAB45.SCH, 81, 105, 1451, 556, 0

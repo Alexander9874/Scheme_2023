@@ -1,0 +1,17 @@
+Reading in the Synopsys vhdl primitives.
+
+Inferred memory devices in process 
+	in routine VHDL_DIV_N12S15 line 14 in
+         file 'C:/XILINX/ACTIVE/PROJECTS/LAB4/VHDL_DIV_N12S15.vhd'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|        Q_reg        | Flip-flop |   4   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Q_reg (width 4)
+---------------
+    Async-reset: CLR
+
+
+Writing to hnl file 'C:\Xilinx\active\projects\Lab4\DPMCOMP.TMP/workdirs/WORK/VHDL_DIV_N12S15.hnl'

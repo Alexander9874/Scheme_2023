@@ -1,0 +1,278 @@
+Release 4.1.03i - Par E.33
+Copyright (c) 1995-2001 Xilinx, Inc.  All rights reserved.
+
+Tue Oct 31 00:17:30 2023
+
+File: lab4.dly
+
+ The 20 Worst Net Delays are:
+-------------------------------
+| Max Delay (ns)  | Netname   |
+-------------------------------
+   8.452            H8/OIMP2
+   6.662            Q0_DV
+   6.309            T_Q3
+   4.630            MODE
+   4.579            H8/GI
+   4.555            Q1_DV
+   4.417            T_Q1
+   4.154            T_Q0
+   3.583            E_DV
+   3.525            T_Q2
+   3.194            E_CNT
+   3.178            E_T
+   2.720            H8/CLK11059
+   2.344            CE_DV
+   2.270            TC_T
+   2.254            Q4_DV
+   2.252            Q2_DV
+   2.233            Q3_CNT
+   2.157            H2/$Net00006_
+   2.077            Q0_CNT
+---------------------------------
+
+-------------------------------------------------------------------------------
+                               Net Delays
+-------------------------------------------------------------------------------
+
+C
+   H8/GI_GOI1.O
+         1.247  H2/$Net00006_.K
+         1.234  Q2_DV.K
+         1.234  CE_T.K
+         1.234  T_Q1.K
+         1.247  U1/$Net00013_.K
+         1.247  Q3_CNT.K
+         1.234  CEO_DV.K
+         1.247  CE_DV.K
+         1.228  CE_CNT.K
+
+CEO_DV
+   CEO_DV.X
+         1.708  CE_T.F1
+
+CE_CNT
+   CE_CNT.X
+         1.041  U1/$Net00013_.F2
+
+CE_DV
+   CE_DV.X
+         1.524  CEO_DV.F1
+         1.388  CEO_DV.G4
+         1.306  CE_DV.C2
+         2.344  H2/$Net00006_.G2
+
+CE_T
+   CE_T.X
+         1.107  CE_T.C2
+         1.997  T_Q1.C2
+         1.338  CE_CNT.F4
+         1.132  CE_CNT.C2
+
+E_CNT
+   H10/RG2_D3.I2
+         3.194  CE_CNT.F2
+
+E_DV
+   H10/RG2_D2.I2
+         3.583  CE_DV.F2
+
+E_T
+   H10/RG2_D1.I1
+         3.178  CE_T.F4
+
+H2/$Net00004_
+   CEO_DV.Y
+         1.037  Q2_DV.C3
+
+H2/$Net00006_
+   H2/$Net00006_.Y
+         2.157  CEO_DV.C3
+
+H2/$Net00014_
+   CE_DV.Y
+         1.696  H2/$Net00006_.C3
+
+H8/$Net00002_
+   H8/$I8.O
+         1.195  H8/$Net00007_.G1
+         1.195  H8/$Net00007_.K
+         1.195  H8/$Net00018_.K
+
+H8/$Net00006_
+   H8/GI_GOI.I2
+         1.838  H8/$Net00007_.G4
+
+H8/$Net00007_
+   H8/$Net00007_.X
+         1.025  H8/$Net00007_.F1
+
+H8/$Net00009_
+   H8/NR_1.I1
+         1.396  H8/$Net00007_.F3
+
+H8/$Net00010_
+   H8/NZ_1.I1
+         1.830  H8/$Net00007_.F2
+
+H8/$Net00013_
+   H8/$Net00007_.XQ
+         1.010  H8/$Net00007_.G2
+         1.010  H8/$Net00007_.C2
+
+H8/$Net00014_
+   H8/$Net00007_.YQ
+         0.990  H8/$Net00007_.G3
+
+H8/$Net00017_
+   H8/NZ_2.I2
+         1.060  H8/$Net00018_.F3
+
+H8/$Net00018_
+   H8/$Net00018_.X
+         1.025  H8/$Net00018_.F1
+
+H8/$Net00019_
+   H8/NR_2.I1
+         1.080  H8/$Net00018_.F2
+
+H8/$Net00022_
+   H8/$Net00018_.XQ
+         0.988  H8/$Net00018_.G1
+         0.988  H8/$Net00018_.C1
+
+H8/$Net00025_
+   H8/$Net00018_.YQ
+         0.990  H8/$Net00018_.G3
+
+H8/CLK11059
+   H8/CLK11059.CLKIN
+         2.720  H8/$I8.I
+
+H8/GI
+   H8/$Net00007_.Y
+         4.579  H8/GI_GOI1.I
+
+H8/OIMP2
+   H8/$Net00018_.Y
+         2.977  H2/$Net00006_.C2
+         8.452  Q2_DV.C2
+         6.107  CE_T.C4
+         5.065  T_Q1.C1
+         7.467  U1/$Net00013_.C3
+         7.848  Q3_CNT.C3
+         8.101  CEO_DV.C2
+         8.149  CE_DV.C3
+         5.065  CE_CNT.C3
+
+MODE
+   H9/RG1_D0.I1
+         3.794  CE_T.F2
+         4.630  CE_DV.F1
+         4.192  CE_CNT.F3
+
+Q0_CNT
+   U1/$Net00013_.XQ
+         2.077  H4/$Net00001_.O
+         1.142  U1/$Net00013_.F1
+         1.142  U1/$Net00013_.G1
+         1.142  U1/$Net00013_.C1
+         1.263  Q3_CNT.F1
+         1.263  Q3_CNT.G1
+
+Q0_DV
+   CE_DV.XQ
+         1.168  CE_DV.G1
+         1.168  CE_DV.C1
+         6.662  H6/$Net00033_.O
+         1.727  CEO_DV.F4
+         1.580  CEO_DV.G3
+         2.145  H2/$Net00006_.G3
+
+Q1_CNT
+   U1/$Net00013_.YQ
+         1.877  H4/$Net00002_.O
+         1.163  U1/$Net00013_.F3
+         1.163  U1/$Net00013_.G3
+         1.157  Q3_CNT.F2
+         1.157  Q3_CNT.G2
+
+Q1_DV
+   H2/$Net00006_.XQ
+         4.555  H6/$Net00034_.O
+         2.802  CEO_DV.F3
+         1.022  H2/$Net00006_.F1
+         1.022  H2/$Net00006_.G1
+         2.802  Q2_DV.F3
+
+Q2_CNT
+   Q3_CNT.YQ
+         1.357  H4/$Net00003_.O
+         1.086  Q3_CNT.F3
+         1.225  Q3_CNT.G4
+
+Q2_DV
+   Q2_DV.XQ
+         1.385  H6/$Net00035_.O
+         2.252  H2/$Net00006_.F4
+         1.210  Q2_DV.F2
+         1.210  CEO_DV.C4
+
+Q3_CNT
+   Q3_CNT.XQ
+         2.233  H4/$Net00004_.O
+         1.264  U1/$Net00013_.F4
+         1.910  Q3_CNT.F4
+
+Q4_DV
+   CEO_DV.XQ
+         1.213  CEO_DV.F2
+         1.213  CEO_DV.G2
+         2.254  H2/$Net00006_.F2
+
+TC_T
+   CE_T.Y
+         2.270  CE_CNT.F1
+         1.721  CE_CNT.G2
+
+T_Q0
+   CE_T.XQ
+         4.154  H5/$Net00025_.O
+         1.221  CE_T.G1
+         1.221  CE_T.C1
+         1.376  T_Q1.F4
+         1.376  T_Q1.G4
+         1.221  CE_CNT.G3
+
+T_Q1
+   T_Q1.XQ
+         4.417  H5/$Net00026_.O
+         1.109  T_Q1.F1
+         1.235  T_Q1.G2
+         1.235  CE_T.G4
+         1.644  CE_CNT.G1
+
+T_Q2
+   T_Q1.YQ
+         3.525  H5/$Net00027_.O
+         1.110  T_Q1.G3
+         1.114  CE_T.G3
+
+T_Q3
+   CE_CNT.YQ
+         6.309  H5/$Net00028_.O
+         1.637  T_Q1.G1
+         1.014  CE_CNT.G4
+
+U1/$I2/OR_CE_L
+   CE_CNT.Y
+         1.496  U1/$Net00013_.C4
+         1.615  Q3_CNT.C1
+
+U1/$Net00013_
+   U1/$Net00013_.X
+         1.282  CE_CNT.C1
+         1.710  Q3_CNT.G3
+         1.351  Q3_CNT.C2
+         1.176  U1/$Net00013_.G2
+

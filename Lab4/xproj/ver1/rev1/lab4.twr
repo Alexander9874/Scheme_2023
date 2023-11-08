@@ -1,0 +1,152 @@
+--------------------------------------------------------------------------------
+Release 4.1.03i - Trace E.30
+Copyright (c) 1995-2001 Xilinx, Inc.  All rights reserved.
+
+trce lab4.ncd lab4.pcf -e 3 -o lab4.twr -xml lab4.twx
+
+Design file:              lab4.ncd
+Physical constraint file: lab4.pcf
+Device,speed:             xcs10,-3 (D 1.3 FINAL)
+Report level:             error report
+--------------------------------------------------------------------------------
+
+WARNING:Timing - No timing constraints found, doing default enumeration.
+2 circuit cycles found and disabled.
+
+  ----------------------------------------------------------------------
+ ! Warning: The following connections close cycles, and some paths      !
+ !          through these connections may not be analyzed.              !
+ !                                                                      !
+ ! Signal                            Driver            Load             !
+ ! --------------------------------  ----------------  ---------------- !
+ ! H8/$Net00007_                     CLB_R8C14.X       CLB_R8C14.F1     !
+ ! H8/$Net00018_                     CLB_R7C14.X       CLB_R7C14.F1     !
+  ---------------------------------------------------------------------- 
+
+
+================================================================================
+Timing constraint: Default period analysis
+
+ 319 items analyzed, 0 timing errors detected.
+ Minimum period is  28.028ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: Default net enumeration
+
+ 42 items analyzed, 0 timing errors detected.
+ Maximum net delay is   8.452ns.
+--------------------------------------------------------------------------------
+
+
+All constraints were met.
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock H8/CLK11059
+---------------+------------+------------+
+               |  Setup to  |  Hold to   |
+Source Pad     | clk (edge) | clk (edge) |
+---------------+------------+------------+
+H10/RG2_D1     |    8.803(R)|    6.100(R)|
+H10/RG2_D2     |   15.640(R)|    2.802(R)|
+H10/RG2_D3     |    5.881(R)|    3.456(R)|
+H8/NR_1        |    4.576(R)|    0.469(R)|
+H8/NR_2        |    4.260(R)|    0.785(R)|
+H8/NZ_1        |    5.010(R)|    0.035(R)|
+H8/NZ_2        |    4.240(R)|    0.805(R)|
+H9/RG1_D0      |   16.687(R)|    5.484(R)|
+---------------+------------+------------+
+
+Setup/Hold to clock H8/GI_GOI
+---------------+------------+------------+
+               |  Setup to  |  Hold to   |
+Source Pad     | clk (edge) | clk (edge) |
+---------------+------------+------------+
+H10/RG2_D1     |    8.830(R)|    6.073(R)|
+H10/RG2_D2     |   15.667(R)|    2.775(R)|
+H10/RG2_D3     |    5.908(R)|    3.429(R)|
+H9/RG1_D0      |   16.714(R)|    5.457(R)|
+---------------+------------+------------+
+
+Clock H8/CLK11059 to Pad
+---------------+------------+
+               | clk (edge) |
+Destination Pad|   to PAD   |
+---------------+------------+
+H4/$Net00001_  |   23.538(R)|
+H4/$Net00002_  |   23.338(R)|
+H4/$Net00003_  |   22.818(R)|
+H4/$Net00004_  |   23.694(R)|
+H5/$Net00025_  |   25.602(R)|
+H5/$Net00026_  |   25.865(R)|
+H5/$Net00027_  |   24.973(R)|
+H5/$Net00028_  |   27.751(R)|
+H6/$Net00033_  |   28.123(R)|
+H6/$Net00034_  |   26.016(R)|
+H6/$Net00035_  |   22.833(R)|
+---------------+------------+
+
+Clock H8/GI_GOI to Pad
+---------------+------------+
+               | clk (edge) |
+Destination Pad|   to PAD   |
+---------------+------------+
+H4/$Net00001_  |   23.511(R)|
+H4/$Net00002_  |   23.311(R)|
+H4/$Net00003_  |   22.791(R)|
+H4/$Net00004_  |   23.667(R)|
+H5/$Net00025_  |   25.575(R)|
+H5/$Net00026_  |   25.838(R)|
+H5/$Net00027_  |   24.946(R)|
+H5/$Net00028_  |   27.724(R)|
+H6/$Net00033_  |   28.096(R)|
+H6/$Net00034_  |   25.989(R)|
+H6/$Net00035_  |   22.806(R)|
+---------------+------------+
+
+Clock to Setup on destination clock H8/CLK11059
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+H8/CLK11059    |   23.846|         |         |         |
+H8/GI_GOI      |   23.846|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock H8/GI_GOI
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+H8/CLK11059    |   23.873|         |         |         |
+H8/GI_GOI      |   23.846|         |         |         |
+---------------+---------+---------+---------+---------+
+
+WARNING:Timing - Clock nets using non-dedicated resources were found in this
+   design. Clock skew on these resources will not be automatically addressed
+   during path analysis. To create a timing report that analyzes clock skew for
+   these paths, run trce with the '-skew' option.
+
+   The following clock nets use non-dedicated resources:
+      C  
+
+
+Timing summary:
+---------------
+
+Timing errors: 0  Score: 0
+
+Constraints cover 319 paths, 42 nets, and 115 connections (100.0% coverage)
+
+Design statistics:
+   Minimum period:  28.028ns (Maximum frequency:  35.679MHz)
+   Maximum net delay:   8.452ns
+
+
+Analysis completed Tue Oct 31 00:17:31 2023
+--------------------------------------------------------------------------------
+

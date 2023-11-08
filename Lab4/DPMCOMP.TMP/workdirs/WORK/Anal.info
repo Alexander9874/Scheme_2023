@@ -1,0 +1,9 @@
+file {
+  .version = 1;
+  entity {
+    .name = "VHDL_DIV_N12S15";
+    .mra_file = "VHDL_DIV_N12S15.mra";
+    .arch = {"VHDL_DIV_N12S15_arch"};
+    .syn_files = {"VHDL_DIV_N12S15.syn", "VHDL_DIV_N12S15__VHDL_DIV_N12S15_ARCH.syn"};
+   }
+}
