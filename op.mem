@@ -1,0 +1,17 @@
+;
+; memfile C:\Documents and Settings\All Users\Desktop\op.mem for LogiBLOX symbol op
+; Created on Monday, May 06, 2024 03:58:23
+;
+; Header Section
+RADIX 10
+DEPTH 16
+WIDTH 8
+DEFAULT 0
+;
+; Data Section
+; Specifies data to be stored in different addresses
+; e.g., DATA 0:A, 1:0
+RADIX 16
+DATA 01, 1C, 49, B4, 5A, 94, DE, 00, 00, 00, 00, 00, 00, 81, 00, 50
+; end of LogiBLOX memfile
+
